@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  BLECalculator
+//  BLECalculator watchOS Watch App
 //
-//  Created by Sigit Kurniawan on 31/05/24.
+//  Created by Sigit Academy on 31/05/24.
 //
 
 import SwiftUI

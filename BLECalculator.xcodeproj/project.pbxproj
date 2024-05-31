@@ -11,7 +11,36 @@
 		010687B32C09B4DE003BDCB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010687B22C09B4DE003BDCB5 /* ContentView.swift */; };
 		010687B52C09B4DF003BDCB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010687B42C09B4DF003BDCB5 /* Assets.xcassets */; };
 		010687B82C09B4DF003BDCB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010687B72C09B4DF003BDCB5 /* Preview Assets.xcassets */; };
+		010687C72C09B656003BDCB5 /* BLECalculator watchOS Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 010687C62C09B656003BDCB5 /* BLECalculator watchOS Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		010687CC2C09B656003BDCB5 /* BLECalculator_watchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010687CB2C09B656003BDCB5 /* BLECalculator_watchOSApp.swift */; };
+		010687CE2C09B656003BDCB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010687CD2C09B656003BDCB5 /* ContentView.swift */; };
+		010687D02C09B657003BDCB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010687CF2C09B657003BDCB5 /* Assets.xcassets */; };
+		010687D32C09B657003BDCB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010687D22C09B657003BDCB5 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		010687C82C09B656003BDCB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 010687A52C09B4DE003BDCB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 010687C52C09B656003BDCB5;
+			remoteInfo = "BLECalculator watchOS Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		010687D72C09B657003BDCB5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				010687C72C09B656003BDCB5 /* BLECalculator watchOS Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		010687AD2C09B4DE003BDCB5 /* BLECalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLECalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,10 +49,23 @@
 		010687B42C09B4DF003BDCB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		010687B72C09B4DF003BDCB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		010687B92C09B4DF003BDCB5 /* BLECalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BLECalculator.entitlements; sourceTree = "<group>"; };
+		010687C12C09B656003BDCB5 /* BLECalculator watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLECalculator watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		010687C62C09B656003BDCB5 /* BLECalculator watchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLECalculator watchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		010687CB2C09B656003BDCB5 /* BLECalculator_watchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLECalculator_watchOSApp.swift; sourceTree = "<group>"; };
+		010687CD2C09B656003BDCB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		010687CF2C09B657003BDCB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		010687D22C09B657003BDCB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		010687AA2C09B4DE003BDCB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010687C32C09B656003BDCB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				010687AF2C09B4DE003BDCB5 /* BLECalculator */,
+				010687CA2C09B656003BDCB5 /* BLECalculator watchOS Watch App */,
 				010687AE2C09B4DE003BDCB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				010687AD2C09B4DE003BDCB5 /* BLECalculator.app */,
+				010687C12C09B656003BDCB5 /* BLECalculator watchOS.app */,
+				010687C62C09B656003BDCB5 /* BLECalculator watchOS Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +114,25 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		010687CA2C09B656003BDCB5 /* BLECalculator watchOS Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				010687CB2C09B656003BDCB5 /* BLECalculator_watchOSApp.swift */,
+				010687CD2C09B656003BDCB5 /* ContentView.swift */,
+				010687CF2C09B657003BDCB5 /* Assets.xcassets */,
+				010687D12C09B657003BDCB5 /* Preview Content */,
+			);
+			path = "BLECalculator watchOS Watch App";
+			sourceTree = "<group>";
+		};
+		010687D12C09B657003BDCB5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				010687D22C09B657003BDCB5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,6 +153,40 @@
 			productReference = 010687AD2C09B4DE003BDCB5 /* BLECalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
+		010687C02C09B656003BDCB5 /* BLECalculator watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010687D82C09B657003BDCB5 /* Build configuration list for PBXNativeTarget "BLECalculator watchOS" */;
+			buildPhases = (
+				010687BF2C09B656003BDCB5 /* Resources */,
+				010687D72C09B657003BDCB5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				010687C92C09B656003BDCB5 /* PBXTargetDependency */,
+			);
+			name = "BLECalculator watchOS";
+			productName = "BLECalculator watchOS";
+			productReference = 010687C12C09B656003BDCB5 /* BLECalculator watchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		010687C52C09B656003BDCB5 /* BLECalculator watchOS Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010687D42C09B657003BDCB5 /* Build configuration list for PBXNativeTarget "BLECalculator watchOS Watch App" */;
+			buildPhases = (
+				010687C22C09B656003BDCB5 /* Sources */,
+				010687C32C09B656003BDCB5 /* Frameworks */,
+				010687C42C09B656003BDCB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BLECalculator watchOS Watch App";
+			productName = "BLECalculator watchOS Watch App";
+			productReference = 010687C62C09B656003BDCB5 /* BLECalculator watchOS Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -100,6 +198,12 @@
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					010687AC2C09B4DE003BDCB5 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					010687C02C09B656003BDCB5 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					010687C52C09B656003BDCB5 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
@@ -118,6 +222,8 @@
 			projectRoot = "";
 			targets = (
 				010687AC2C09B4DE003BDCB5 /* BLECalculator */,
+				010687C02C09B656003BDCB5 /* BLECalculator watchOS */,
+				010687C52C09B656003BDCB5 /* BLECalculator watchOS Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +235,22 @@
 			files = (
 				010687B82C09B4DF003BDCB5 /* Preview Assets.xcassets in Resources */,
 				010687B52C09B4DF003BDCB5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010687BF2C09B656003BDCB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010687C42C09B656003BDCB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010687D32C09B657003BDCB5 /* Preview Assets.xcassets in Resources */,
+				010687D02C09B657003BDCB5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +266,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		010687C22C09B656003BDCB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010687CE2C09B656003BDCB5 /* ContentView.swift in Sources */,
+				010687CC2C09B656003BDCB5 /* BLECalculator_watchOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		010687C92C09B656003BDCB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 010687C52C09B656003BDCB5 /* BLECalculator watchOS Watch App */;
+			targetProxy = 010687C82C09B656003BDCB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		010687BA2C09B4DF003BDCB5 /* Debug */ = {
@@ -319,6 +458,100 @@
 			};
 			name = Release;
 		};
+		010687D52C09B657003BDCB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BLECalculator watchOS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = UW36D2XW6X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BLECalculator watchOS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sigitkurniawanisme.BLECalculator-watchOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		010687D62C09B657003BDCB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BLECalculator watchOS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = UW36D2XW6X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BLECalculator watchOS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sigitkurniawanisme.BLECalculator-watchOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		010687D92C09B657003BDCB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW36D2XW6X;
+				INFOPLIST_KEY_CFBundleDisplayName = "BLECalculator watchOS";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sigitkurniawanisme.BLECalculator-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		010687DA2C09B657003BDCB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW36D2XW6X;
+				INFOPLIST_KEY_CFBundleDisplayName = "BLECalculator watchOS";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sigitkurniawanisme.BLECalculator-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +569,24 @@
 			buildConfigurations = (
 				010687BD2C09B4DF003BDCB5 /* Debug */,
 				010687BE2C09B4DF003BDCB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010687D42C09B657003BDCB5 /* Build configuration list for PBXNativeTarget "BLECalculator watchOS Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010687D52C09B657003BDCB5 /* Debug */,
+				010687D62C09B657003BDCB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010687D82C09B657003BDCB5 /* Build configuration list for PBXNativeTarget "BLECalculator watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010687D92C09B657003BDCB5 /* Debug */,
+				010687DA2C09B657003BDCB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
